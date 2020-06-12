@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "6ea7cc6d-e486-4779-b5ef-eafb5bbe8515",
+		"name": "FirstCollection",
+		"description": "This is our first collection 25/05",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "GET_USERS",
+					"item": [
+						{
+							"name": "LIST_USERS",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "c470d2ba-99f6-4db9-b827-761000df34b4",
+										"exec": [
+											"console.log(\"Hello Word...\")\r",
+											"\r",
+											"let VarUrl = pm.variables.get(\"BaseUrl\")\r",
+											"console.log(\"Affiche moi la valeur=\" +VarUrl)\r",
+											"\r",
+											"//pm.variables.set(\"BaseUrl\", \"https://rym.com\")\r",
+											"//let VarUrl = pm.variables.get(\"BaseUrl\")\r",
+											"//console.log(\"New variable=\" +VarUrl)\r",
+											"\r",
+											"let GlobVar = pm.variables.get(\"Name\")\r",
+											"console.log(\"Affiche moi la globale variables=\" +GlobVar)\r",
+											"\r",
+											"pm.variables.set(\"Name\",\"Variable globale\")\r",
+											"console.log(pm.variables.get(\"Name\"))\r",
+											"console.info(pm.variables.get(\"Name\"))"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "{{BaseUrl}}/api/users?page=2",
+									"host": [
+										"{{BaseUrl}}"
+									],
+									"path": [
+										"api",
+										"users"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "2"
+										}
+									]
+								},
+								"description": "Add List of Users"
+							},
+							"response": []
+						},
+						{
+							"name": "SINGLE_USERS",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "523a7aa5-78fc-4c6c-94ea-b5772c0a3d2f",
+										"exec": [
+											"//on verfie sis le code est < à 200\r",
+											"pm.test(\"Response time is less than 200ms\", function () {\r",
+											"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+											"});\r",
+											"//on verfie sis le code de retour est 200\r",
+											"pm.test(\"Status code is 200\", function () {\r",
+											"    pm.response.to.have.status(200);\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": "{{BaseUrl}}/api/users/2",
+								"description": "List of Single Users"
+							},
+							"response": []
+						}
+					],
+					"description": "userS",
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "CREATE_USER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"morpheus\",\r\n    \"job\": \"leader\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BaseUrl}}/api/users"
+					},
+					"response": []
+				},
+				{
+					"name": "LOGIN_USER",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"{{Email}}\",\r\n    \"password\": \"{{Password}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BaseUrl}}/api/login"
+					},
+					"response": []
+				},
+				{
+					"name": "REGISTER_SUCCESSFUL",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": {
+								"addTokenTo": "header"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"{{Email}}\",\r\n    \"password\": \"{{Password}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{BaseUrl}}/api/register"
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE_REP_AUTH_USER",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": {
+								"accessToken": "{{VarToken}}",
+								"addTokenTo": "header"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Hello-Rim\",\r\n  \"description\": \"This is your first repository\",\r\n  \"homepage\": \"https://github.com\",\r\n  \"private\": false,\r\n  \"has_issues\": true,\r\n  \"has_projects\": true,\r\n  \"has_wiki\": true\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://api.github.com/user/repos"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "33a2179e-3846-4363-8b7d-9a53ed30392f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "61b366f4-b0c6-4a82-ba59-5ea29ec31948",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "06bd9213-8330-409a-a14d-ba1170275700",
+			"key": "BaseUrl",
+			"value": "https://reqres.in",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

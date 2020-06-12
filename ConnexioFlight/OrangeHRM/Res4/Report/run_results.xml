@@ -1,0 +1,1304 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>StartUp Browser.Navigate</Name>
+    <Description>Naviguer vers https://opensource-demo.orangehrmlive.com/</Description>
+    <StartTime>2020-06-08 17:04:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Naviguer vers https://opensource-demo.orangehrmlive.com/]]></OperationData>
+      </TestObject>
+      <IconKey>68afde675f794f9a86bd60244c4fc10c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>StartUp Browser</Name>
+    <Description>Pour exécuter cette étape, vous devez activer le complément Internet Explorer :'Micro Focus UFT Agent'&lt;br/&gt;&lt;br/&gt;Description physique de l’objet :&lt;br&gt;Mercury Class = Browser&lt;br&gt;</Description>
+    <StartTime>2020-06-08 17:04:51</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Pour exécuter cette étape, vous devez activer le complément Internet Explorer :'Micro Focus UFT Agent']]></OperationData>
+      </TestObject>
+      <IconKey>68afde675f794f9a86bd60244c4fc10c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Erreur d’exécution</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>StartUp Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-06-08 17:04:51</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>68afde675f794f9a86bd60244c4fc10c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"OrangeHRM"- Identification intelligente</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;Le mécanisme d’identification intelligente a été appelé.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Motif : objet non unique (7 objets détectés)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Description d’origine :&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=Browser&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Autre description de l’identification intelligente : &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre de base (7 objets détectés)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Browser&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre facultatif&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+name=OrangeHRM&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 1 correspondances)&lt;/SPAN&gt;&lt;br&gt;title=OrangeHRM - Internet Explorer&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openurl=https://opensource-demo.orangehrmlive.com&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;opentitle=OrangeHRM&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openedbytestingtool=-1&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;number of tabs=1&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2020-06-08 17:05:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Browser]]></Value>
+          </Property>
+          <BasicMatch>7</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[OrangeHRM]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[OrangeHRM - Internet Explorer]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openurl]]></Name>
+            <Value><![CDATA[https://opensource-demo.orangehrmlive.com]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[opentitle]]></Name>
+            <Value><![CDATA[OrangeHRM]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openedbytestingtool]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[number of tabs]]></Name>
+            <Value><![CDATA[1]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">Le mécanisme d’identification intelligente a été appelé.</span></P><P><SPAN class=text>Motif : objet non unique (7 objets détectés)</SPAN></P>           <SPAN class=text><b>Description d’origine :</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Autre description de l’identification intelligente : </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Propriétés du filtre de base (7 objets détectés)&nbsp;</FONT></u><br>
+micclass=Browser<br><br><FONT face=Verdana size=2><u>Propriétés du filtre facultatif</FONT></u><br>
+name=OrangeHRM<SPAN class=passed> (Utilisé</SPAN>, 1 correspondances)</SPAN><br>title=OrangeHRM - Internet Explorer<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openurl=https://opensource-demo.orangehrmlive.com<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>opentitle=OrangeHRM<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=-1<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>number of tabs=1<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+      </TestObject>
+      <IconKey>80fcd4e993674c8c96d4ce5c3863d9d6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>txtUsername.Set</Name>
+    <Description>"Admin"</Description>
+    <StartTime>2020-06-08 17:05:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[txtUsername]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Admin"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[txtUsername]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>dc4ab933688540e6b59273516d7fbdb2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>frmLogin.Click</Name>
+    <Description />
+    <StartTime>2020-06-08 17:05:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[frmLogin]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[LOGIN Panel Username  Password  Forgot your password?]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FORM]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>85dbfbcc94e9445999dc5a2d6d31ff36</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>txtPassword.SetSecure</Name>
+    <Description>"5ede3db452dc566cf7986ec9d68b4b3e2f9697320010"</Description>
+    <StartTime>2020-06-08 17:05:16</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[txtPassword]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetSecure</Operation>
+        <OperationData><![CDATA["5ede3db452dc566cf7986ec9d68b4b3e2f9697320010"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[txtPassword]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>dc4ab933688540e6b59273516d7fbdb2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LOGIN.Click</Name>
+    <Description />
+    <StartTime>2020-06-08 17:05:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[LOGIN]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[submit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[LOGIN]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1193a85f30ed4921a53ec483b2f8a934</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OrangeHRM</Name>
+    <Description>Page</Description>
+    <StartTime>2020-06-08 17:05:15</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>fe09f9a2096747afa0c6d6b734f4d0c4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OrangeHRM</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-06-08 17:05:15</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>68afde675f794f9a86bd60244c4fc10c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description />
+    <StartTime>2020-06-08 17:04:51</StartTime>
+    <Duration>27</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>914b5e4491c8461f9bb7937c3e8c5bc3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Logout</Name>
+    <Description />
+    <StartTime>2020-06-08 17:05:18</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>914b5e4491c8461f9bb7937c3e8c5bc3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"OrangeHRM"- Identification intelligente</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;Le mécanisme d’identification intelligente a été appelé.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Motif : objet non unique (7 objets détectés)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Description d’origine :&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=Browser&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Autre description de l’identification intelligente : &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre de base (7 objets détectés)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Browser&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre facultatif&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+name=OrangeHRM&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 1 correspondances)&lt;/SPAN&gt;&lt;br&gt;title=OrangeHRM - Internet Explorer&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openurl=https://opensource-demo.orangehrmlive.com&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;opentitle=OrangeHRM&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openedbytestingtool=-1&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;number of tabs=1&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2020-06-08 17:05:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Browser]]></Value>
+          </Property>
+          <BasicMatch>7</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[OrangeHRM]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[OrangeHRM - Internet Explorer]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openurl]]></Name>
+            <Value><![CDATA[https://opensource-demo.orangehrmlive.com]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[opentitle]]></Name>
+            <Value><![CDATA[OrangeHRM]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openedbytestingtool]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[number of tabs]]></Name>
+            <Value><![CDATA[1]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">Le mécanisme d’identification intelligente a été appelé.</span></P><P><SPAN class=text>Motif : objet non unique (7 objets détectés)</SPAN></P>           <SPAN class=text><b>Description d’origine :</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Autre description de l’identification intelligente : </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Propriétés du filtre de base (7 objets détectés)&nbsp;</FONT></u><br>
+micclass=Browser<br><br><FONT face=Verdana size=2><u>Propriétés du filtre facultatif</FONT></u><br>
+name=OrangeHRM<SPAN class=passed> (Utilisé</SPAN>, 1 correspondances)</SPAN><br>title=OrangeHRM - Internet Explorer<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openurl=https://opensource-demo.orangehrmlive.com<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>opentitle=OrangeHRM<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=-1<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>number of tabs=1<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+      </TestObject>
+      <IconKey>80fcd4e993674c8c96d4ce5c3863d9d6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ApplyLeave.Click</Name>
+    <Description />
+    <StartTime>2020-06-08 17:05:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[ApplyLeave]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Link]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[IMG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>939b92a4662d4886b1afc8b5f78eaafd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OrangeHRM</Name>
+    <Description>Page</Description>
+    <StartTime>2020-06-08 17:05:40</StartTime>
+    <Duration>21</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>fe09f9a2096747afa0c6d6b734f4d0c4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"Employee Name *  var employees"- Description incompatible</Name>
+    <Description>L’objet a été détecté à l’aide de la description de l’objet de test. Vérifiez les propriétés de l’objet.</Description>
+    <StartTime>2020-06-08 17:06:01</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[OL]]></Value>
+          </Property>
+          <BasicMatch>2</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field]]></Value>
+            <Info><![CDATA[Skipped]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[1]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Employee Name *  var employees]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[L’objet a été détecté à l’aide de la description de l’objet de test. Vérifiez les propriétés de l’objet.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[OL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>85dbfbcc94e9445999dc5a2d6d31ff36</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Employee Name *  var employees"- Identification intelligente</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;Le mécanisme d’identification intelligente a été appelé.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Motif : Objet introuvable.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Description d’origine :&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&amp;ltdiv/&amp;gt').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&amp;ltdiv/&amp;gt').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field&lt;br&gt;html tag=OL&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Autre description de l’identification intelligente : &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre de base (2 objets détectés)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=WebElement&lt;br&gt;html tag=OL&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre facultatif&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+html id=&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 2 correspondances)&lt;/SPAN&gt;&lt;br&gt;class=&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 2 correspondances)&lt;/SPAN&gt;&lt;br&gt;innertext=Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&amp;ltdiv/&amp;gt').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&amp;ltdiv/&amp;gt').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field&lt;SPAN class=Failed&gt; (Ignoré)&lt;/SPAN&gt;&lt;br&gt;visible=1&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 1 correspondances)&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2020-06-08 17:06:01</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[OL]]></Value>
+          </Property>
+          <BasicMatch>2</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field]]></Value>
+            <Info><![CDATA[Skipped]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[1]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Employee Name *  var employees]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">Le mécanisme d’identification intelligente a été appelé.</span></P><P><SPAN class=text>Motif : Objet introuvable.</SPAN></P>           <SPAN class=text><b>Description d’origine :</b></SPAN><br>micclass=WebElement<br>innertext=Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&ltdiv/&gt').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&ltdiv/&gt').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field<br>html tag=OL<br><P><FONT face=Verdana size=2><SPAN class=text><B>Autre description de l’identification intelligente : </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Propriétés du filtre de base (2 objets détectés)&nbsp;</FONT></u><br>
+micclass=WebElement<br>html tag=OL<br><br><FONT face=Verdana size=2><u>Propriétés du filtre facultatif</FONT></u><br>
+html id=<SPAN class=passed> (Utilisé</SPAN>, 2 correspondances)</SPAN><br>class=<SPAN class=passed> (Utilisé</SPAN>, 2 correspondances)</SPAN><br>innertext=Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&ltdiv/&gt').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&ltdiv/&gt').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field<SPAN class=Failed> (Ignoré)</SPAN><br>visible=1<SPAN class=passed> (Utilisé</SPAN>, 1 correspondances)</SPAN><br>acc_name=<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[OL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>80fcd4e993674c8c96d4ce5c3863d9d6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Employee Name *  var employees_assignleave_txtEmployee = [{'name':'Linda Anderson','id':'1'},{'name':'Hannah Flores','id':'2'},{'name':'John Smith','id':'3'},{'name':'Steven Edwards','id':'4'},{'name':'Thomas Fleming','id':'5'},{'name':'Robert Craig','id':'6'},{'name':'Fiona Grace','id':'7'},{'name':'Russel Hamilton','id':'8'},{'name':'Jasmine Morgan','id':'9'},{'name':'Aaaa Bbb Ccc','id':'10'},{'name':'Aaaa Bbb Ccc','id':'11'},{'name':'Aaaa Bbb Ccc','id':'12'},{'name':'Aaaa Bbb Ccc','id':'13'},{'name':'Aaaa Bbb Ccc','id':'14'},{'name':'Dibyesh123456 Dash','id':'16'},{'name':'g d','id':'17'},{'name':'Aaaa Bbb Ccc','id':'19'},{'name':'Aaaa Bbb Ccc','id':'20'},{'name':'Aaaa Bbb Ccc','id':'21'},{'name':'Aaaa Bbb Ccc','id':'22'},{'name':'Aaaa Bbb Ccc','id':'23'},{'name':'Aaaa Bbb Ccc','id':'25'},{'name':'Aaaa Bbb Ccc','id':'26'},{'name':'Aaaa Bbb Ccc','id':'27'},{'name':'Aaaa Bbb Ccc','id':'28'},{'name':'Test 1','id':'30'},{'name':'Swapnil Dhananjay Kamble','id':'31'},{'name':'test1 user1','id':'33'},{'name':'Hello world','id':'34'},{'name':'test1 user1','id':'35'},{'name':'Cecile Palma','id':'36'},{'name':'Devante Rylan','id':'37'},{'name':'Ross Jack Gellar','id':'38'},{'name':'orcard23 Stewart23','id':'39'},{'name':'orcard23 Stewart23','id':'40'},{'name':'Elmira Jennyfer','id':'41'},{'name':'Emelia Salma','id':'42'},{'name':'Eulah Joanne','id':'43'}]; $(document).ready(function() { var nameField = $('#assignleave_txtEmployee_empName'); var idStoreField = $('#assignleave_txtEmployee_empId'); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(''); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: '/index.php/pim/getEmployeeListAjax', data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($('#assignleave_txtFromDate').val()); if (dateFieldValue == '') { $('#assignleave_txtFromDate').val(displayDateFormat); } daymarker.bindElement('#assignleave_txtFromDate', { showOn: 'both', dateFormat: datepickerDateFormat, buttonImage: '/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png', buttonText:'', buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: '-100:+100', firstDay: 1, onClose: function() { $('#assignleave_txtFromDate').trigger('blur'); } }); //$('img.ui-datepicker-trigger').addClass('editable'); $('#assignleave_txtFromDate').click(function(){ daymarker.show('#assignleave_txtFromDate'); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($('#assignleave_txtToDate').val()); if (dateFieldValue == '') { $('#assignleave_txtToDate').val(displayDateFormat); } daymarker.bindElement('#assignleave_txtToDate', { showOn: 'both', dateFormat: datepickerDateFormat, buttonImage: '/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png', buttonText:'', buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: '-100:+100', firstDay: 1, onClose: function() { $('#assignleave_txtToDate').trigger('blur'); } }); //$('img.ui-datepicker-trigger').addClass('editable'); $('#assignleave_txtToDate').click(function(){ daymarker.show('#assignleave_txtToDate'); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($('#assignleave_duration_duration').val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $('#assignleave_duration_duration').change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($('#assignleave_firstDuration_duration').val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $('#assignleave_firstDuration_duration').change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($('#assignleave_secondDuration_duration').val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $('#assignleave_secondDuration_duration').change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field"</Name>
+    <Description> </Description>
+    <StartTime>2020-06-08 17:06:01</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Employee Name *  var employees]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[OL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Marc antoine Fitec","id":"36"},{"name":"IMHAH Hassan","id":"37"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field ]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[EmployeeName]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Échec du point de contrôle. EmployeeName</ShortDescription>
+      </Checkpoint>
+      <IconKey>85dbfbcc94e9445999dc5a2d6d31ff36</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7b8de049-5e0c-4fa6-aef8-3ac145c47f46.jpeg" highlight="36,241,1464,341" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Employee Name *  var employees</Name>
+    <Description>WebElement</Description>
+    <StartTime>2020-06-08 17:06:01</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Employee Name *  var employees]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Employee Name *  var employees_assignleave_txtEmployee = [{"name":"Linda Anderson","id":"1"},{"name":"Hannah Flores","id":"2"},{"name":"John Smith","id":"3"},{"name":"Steven Edwards","id":"4"},{"name":"Thomas Fleming","id":"5"},{"name":"Robert Craig","id":"6"},{"name":"Fiona Grace","id":"7"},{"name":"Russel Hamilton","id":"8"},{"name":"Jasmine Morgan","id":"9"},{"name":"Aaaa Bbb Ccc","id":"10"},{"name":"Aaaa Bbb Ccc","id":"11"},{"name":"Aaaa Bbb Ccc","id":"12"},{"name":"Aaaa Bbb Ccc","id":"13"},{"name":"Aaaa Bbb Ccc","id":"14"},{"name":"Dibyesh123456 Dash","id":"16"},{"name":"g d","id":"17"},{"name":"Aaaa Bbb Ccc","id":"19"},{"name":"Aaaa Bbb Ccc","id":"20"},{"name":"Aaaa Bbb Ccc","id":"21"},{"name":"Aaaa Bbb Ccc","id":"22"},{"name":"Aaaa Bbb Ccc","id":"23"},{"name":"Aaaa Bbb Ccc","id":"25"},{"name":"Aaaa Bbb Ccc","id":"26"},{"name":"Aaaa Bbb Ccc","id":"27"},{"name":"Aaaa Bbb Ccc","id":"28"},{"name":"Test 1","id":"30"},{"name":"Swapnil Dhananjay Kamble","id":"31"},{"name":"test1 user1","id":"33"},{"name":"Hello world","id":"34"},{"name":"test1 user1","id":"35"},{"name":"Cecile Palma","id":"36"},{"name":"Devante Rylan","id":"37"},{"name":"Ross Jack Gellar","id":"38"},{"name":"orcard23 Stewart23","id":"39"},{"name":"orcard23 Stewart23","id":"40"},{"name":"Elmira Jennyfer","id":"41"},{"name":"Emelia Salma","id":"42"},{"name":"Eulah Joanne","id":"43"}]; $(document).ready(function() { var nameField = $("#assignleave_txtEmployee_empName"); var idStoreField = $("#assignleave_txtEmployee_empId"); var typeHint = 'Type for hints...'; var hintClass = 'inputFormatHint'; var loadingMethod = ''; var loadingHint = 'Loading'; if (idStoreField.val() != '') { idStoreField.data('item.name', nameField.val()); } nameField.data('typeHint', typeHint); nameField.data('loadingHint', loadingHint); nameField.one('focus', function() { if ($(this).hasClass(hintClass)) { $(this).val(""); $(this).removeClass(hintClass); } }); if( loadingMethod != 'ajax'){ if (nameField.val() == '' || nameField.val() == typeHint) { nameField.val(typeHint).addClass(hintClass); } nameField.autocomplete(employees_assignleave_txtEmployee, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); }else{ var value = nameField.val().trim(); nameField.val(loadingHint).addClass('ac_loading'); $.ajax({ url: "/index.php/pim/getEmployeeListAjax", data: '', dataType: 'json', success: function(employeeList){ nameField.autocomplete(employeeList, { formatItem: function(item) { return $('&lt;div/&gt;').text(item.name).html(); }, formatResult: function(item) { return item.name } ,matchContains:true }).result(function(event, item) { idStoreField.val(item.id); idStoreField.data('item.name', item.name); } ); nameField.removeClass('ac_loading'); if(value==''){ nameField.val(typeHint).addClass(hintClass); } else { nameField.val(value).addClass(); } } }); } }); // End of $(document).ready  Leave Type *--Select-- FMLA US Maternity US Paternity US Vacation US  Leave Balance--From Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtFromDate").val()); if (dateFieldValue == '') { $("#assignleave_txtFromDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtFromDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtFromDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtFromDate").click(function(){ daymarker.show("#assignleave_txtFromDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  To Date *var datepickerDateFormat = 'yy-mm-dd'; var displayDateFormat = datepickerDateFormat.replace('yy', 'yyyy'); $(document).ready(function(){ var dateFieldValue = $.trim($("#assignleave_txtToDate").val()); if (dateFieldValue == '') { $("#assignleave_txtToDate").val(displayDateFormat); } daymarker.bindElement("#assignleave_txtToDate", { showOn: "both", dateFormat: datepickerDateFormat, buttonImage: "/webres_5ebd1457b45137.49759927/themes/default/images/calendar.png", buttonText:"", buttonImageOnly: true, changeMonth: true, changeYear: true, yearRange: "-100:+100", firstDay: 1, onClose: function() { $("#assignleave_txtToDate").trigger('blur'); } }); //$("img.ui-datepicker-trigger").addClass("editable"); $("#assignleave_txtToDate").click(function(){ daymarker.show("#assignleave_txtToDate"); if ($(this).val() == displayDateFormat) { $(this).val(''); } }); });  DurationFull Day Half Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_duration_duration").val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); $("#assignleave_duration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_duration_full_day_content', 'assignleave_duration_half_day_content', 'assignleave_duration_specify_time_content'); }); });  Partial DaysNone All Days Start Day Only End Day Only Start and End Day  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_firstDuration_duration").val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); $("#assignleave_firstDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_firstDuration_full_day_content', 'assignleave_firstDuration_half_day_content', 'assignleave_firstDuration_specify_time_content'); }); });  DurationHalf Day Specify Time  Morning Afternoon  From 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  To 00:00 00:15 00:30 00:45 01:00 01:15 01:30 01:45 02:00 02:15 02:30 02:45 03:00 03:15 03:30 03:45 04:00 04:15 04:30 04:45 05:00 05:15 05:30 05:45 06:00 06:15 06:30 06:45 07:00 07:15 07:30 07:45 08:00 08:15 08:30 08:45 09:00 09:15 09:30 09:45 10:00 10:15 10:30 10:45 11:00 11:15 11:30 11:45 12:00 12:15 12:30 12:45 13:00 13:15 13:30 13:45 14:00 14:15 14:30 14:45 15:00 15:15 15:30 15:45 16:00 16:15 16:30 16:45 17:00 17:15 17:30 17:45 18:00 18:15 18:30 18:45 19:00 19:15 19:30 19:45 20:00 20:15 20:30 20:45 21:00 21:15 21:30 21:45 22:00 22:15 22:30 22:45 23:00 23:15 23:30 23:45  Duration $(document).ready(function(){ orangehrm.widgets.formLeaveDuration.handleDurationChange($("#assignleave_secondDuration_duration").val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); $("#assignleave_secondDuration_duration").change(function() { orangehrm.widgets.formLeaveDuration.handleDurationChange($(this).val(), 'assignleave_secondDuration_full_day_content', 'assignleave_secondDuration_half_day_content', 'assignleave_secondDuration_specify_time_content'); }); });  Comment  * Required field]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[OL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>85dbfbcc94e9445999dc5a2d6d31ff36</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"assignleave[txtFromDate]"</Name>
+    <Description> </Description>
+    <StartTime>2020-06-08 17:06:02</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[assignleave[txtFromDate]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[assignleave[txtFromDate]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[name]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[assignleave[txtFromDate]]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[FromDate]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[type]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[text]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[text]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[value]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[yyyy-mm-dd]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[yyyy-mm-dd]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Échec du point de contrôle. FromDate</ShortDescription>
+      </Checkpoint>
+      <IconKey>dc4ab933688540e6b59273516d7fbdb2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\cb4fde64-6f7a-4bd2-a576-a6d2b051d02c.jpeg" highlight="186,360,179,26" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>assignleave[txtFromDate]</Name>
+    <Description>WebEdit</Description>
+    <StartTime>2020-06-08 17:06:02</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[assignleave[txtFromDate]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebEdit]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[assignleave[txtFromDate]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>dc4ab933688540e6b59273516d7fbdb2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"assignleave[txtComment]"</Name>
+    <Description> </Description>
+    <StartTime>2020-06-08 17:06:03</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[assignleave[txtComment]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[textarea]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[assignleave[txtComment]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[TEXTAREA]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[name]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[assignleave[txtComment]]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[ToDate]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[type]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[textarea]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[textarea]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[value]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Échec du point de contrôle. ToDate</ShortDescription>
+      </Checkpoint>
+      <IconKey>dc4ab933688540e6b59273516d7fbdb2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\989032cc-01f7-49db-b298-0b123e6cbf68.jpeg" highlight="186,442,264,90" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>assignleave[txtComment]</Name>
+    <Description>WebEdit</Description>
+    <StartTime>2020-06-08 17:06:03</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[assignleave[txtComment]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebEdit]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[textarea]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[assignleave[txtComment]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[TEXTAREA]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>dc4ab933688540e6b59273516d7fbdb2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>assignleave[txtEmployee][empNa.Set</Name>
+    <Description>"John "</Description>
+    <StartTime>2020-06-08 17:06:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[assignleave[txtEmployee][empNa]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["John "]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[assignleave[txtEmployee][empName]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>dc4ab933688540e6b59273516d7fbdb2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OrangeHRM_2</Name>
+    <Description>Page</Description>
+    <StartTime>2020-06-08 17:06:01</StartTime>
+    <Duration>24</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>fe09f9a2096747afa0c6d6b734f4d0c4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OrangeHRM</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-06-08 17:05:39</StartTime>
+    <Duration>46</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>68afde675f794f9a86bd60244c4fc10c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>John Smith</Name>
+    <ErrorText>Impossible d’identifier l’objet "John Smith" (de classe WebElement).
+Vérifiez que ces propriétés d’objet correspondent à un objet affiché dans l’application.</ErrorText>
+    <Description>Impossible&amp;nbsp;d’identifier&amp;nbsp;l’objet&amp;nbsp;"John&amp;nbsp;Smith"&amp;nbsp;(de&amp;nbsp;classe&amp;nbsp;WebElement).&lt;br/&gt;Vérifiez&amp;nbsp;que&amp;nbsp;ces&amp;nbsp;propriétés&amp;nbsp;d’objet&amp;nbsp;correspondent&amp;nbsp;à&amp;nbsp;un&amp;nbsp;objet&amp;nbsp;affiché&amp;nbsp;dans&amp;nbsp;l’application.&lt;br/&gt;&lt;br/&gt;Description physique de l’objet :&lt;br&gt;Mercury Class = WebElement&lt;br&gt;Index = 1&lt;br&gt;Html Tag = LI&lt;br&gt;_xpath = //DIV[6]/UL[1]/LI[1]&lt;br&gt;|Visible = -1&lt;br&gt;innertext = John Smith&lt;br&gt;Html Id = &lt;br&gt;DHTML Class = ac_even ac_over&lt;br&gt;acc_name = &lt;br&gt;</Description>
+    <StartTime>2020-06-08 17:06:25</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[AssignLeave]]></ModuleName>
+          <FileName><![CDATA[AssignLeave]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Browser("OrangeHRM").Page("OrangeHRM_2").WebElement("John Smith").Click]]></Scripts>
+          <LineNo><![CDATA[7]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[OrangeHRM_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[John Smith]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Impossible&nbsp;d’identifier&nbsp;l’objet&nbsp;"John&nbsp;Smith"&nbsp;(de&nbsp;classe&nbsp;WebElement).<br/>Vérifiez&nbsp;que&nbsp;ces&nbsp;propriétés&nbsp;d’objet&nbsp;correspondent&nbsp;à&nbsp;un&nbsp;objet&nbsp;affiché&nbsp;dans&nbsp;l’application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[John Smith]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[LI]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>85dbfbcc94e9445999dc5a2d6d31ff36</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Erreur d’exécution</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\fd984078-064f-440d-9933-0cce991c831f.jpeg" highlight="0,0,1920,931" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Arrêter l’exécution</Name>
+    <Description>Exécution arrêtée par l’utilisateur.</Description>
+    <StartTime>2020-06-08 17:06:32</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>255aac4d65234579b39651ae4b7b2541</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OrangeHRM</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-06-08 17:06:25</StartTime>
+    <Duration>7</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[OrangeHRM]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>68afde675f794f9a86bd60244c4fc10c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AssignLeave</Name>
+    <Description />
+    <StartTime>2020-06-08 17:05:19</StartTime>
+    <Duration>73</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>914b5e4491c8461f9bb7937c3e8c5bc3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-06-08 17:04:51</StartTime>
+    <Duration>101</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>81d28c3d41cf410ea2a29055457a3705</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>internet explorer</Name>
+        <Path>C:\Program Files\Internet Explorer\IEXPLORE.EXE</Path>
+        <Version>11</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>https://opensource-demo.orangehrmlive.com/</Info>
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OrangeHRM</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-06-08 17:04:47</StartTime>
+    <Duration>105</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>992462fd2d7748ac9ab9e3e98a858fd5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>français (France)</Locale>
+      <User>skhir</User>
+      <CpuInfo>Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz</CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>8071</TotalMemory>
+      <HostName>LAPTOP-LUR3JO50</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res4</ResultName>
+    <RunStartTime>2020-06-08 17:04:47</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.1</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
